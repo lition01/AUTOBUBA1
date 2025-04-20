@@ -1,0 +1,78 @@
+.row {
+    display: flex;
+    flex-flow: wrap;
+    top: 5px;
+    left: 5px;
+}
+
+.first,
+.second,
+.third,
+.forth,
+.fifth,
+.sixth,
+.seventh {
+    margin: 5px;
+    background-color: pink;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    transition: transform 0.3s;
+}
+
+.first:hover,
+.second:hover,
+.third:hover,
+.forth:hover,
+.fifth:hover,
+.sixth:hover,
+.seventh:hover {
+    transform: scale(1.07);
+
+
+
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 83%;
+}
+
+.right {
+    width: 17%;
+}
+
+#text {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+#button1 , #button2{
+    padding: 7px 20px;
+    background-color: pink;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+#button1:hover , #button2:hover{
+    transform: scale(1.07);
+}
